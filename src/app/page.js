@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem 0' }}>
       <header style={{ marginBottom: '3rem' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>Developer Toolkit</h1>
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>UtilityHUB: Developer Toolkit</h1>
         <p style={{ color: 'var(--text-muted)', fontSize: '1.25rem' }}>
           A collection of essential utilities for developers.
         </p>
