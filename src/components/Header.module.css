@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between toggle and other actions */
+  padding: 1rem 2rem;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.toggleBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--foreground);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.toggleBtn:hover {
+  background-color: var(--surface-hover);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 18px;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  border-radius: 2px;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  background-color: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+  text-decoration: none;
+}
+
+.actionBtn:hover {
+  background-color: var(--surface-hover);
+  color: var(--foreground);
+}
+
+.langBtn {
+  border: 1px solid var(--border);
+}
+
+/* For language dropdown if needed later, but for now just a button style */
+.icon {
+  width: 20px;
+  height: 20px;
+}
